@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>another dior!</title>	
+<meta charset="utf-8"/>
+
+<style type="text/css">
+*
+{
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+   #Blk01_Focus_Arr{
+     display: inline-block;
+       height: 31px;
+       width: 338px;
+       position: relative;
+       left:40px;
+       bottom: 150px;
+
+   }
+
+   
+     .scrArrAbsLeft{
+     display: inline-block;
+     width: 31px;     
+     height: 41px;
+   background-image: url(2.jpg);
+  
+   }
+  .scrArrAbsright
+{       display: inline-block;
+     float: right;
+     width: 31px;     
+     height: 41px;
+     background-image: url(1.jpg)
+;
+}
+
+
+
+ul 
+{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+        
+
+}
+ol{
+ list-style:none;
+
+}
+
+
+#navbar li,#Blk01_Focus_Nav li
+{
+	float: left;
+
+}
+a:link,a:visited
+{
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #bebebe;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+a.hover,a:active
+{
+	background-color: #cc0000;
+}
+body {
+    background-image:url(bj.jpg);
+    background-repeat: repeat;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	color: black;
+	font-family: "Helvetica"
+}
+h2.pos_left
+{
+	position: relative;
+	left: -20px;
+	font-family: "Verdana";
+	font-size: 20px;
+}
+h2.pos_right
+{
+	position: relative;
+	left: 20px;
+	font-family: "Verdana";
+	font-size: 20px;
+}
+h2{
+	font-family: "Verdana";
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+}
+
+h3{
+  font-family: "Verdana";
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+}
+.topbox{
+	width: 16%;
+	display: inline-block;
+	padding: 20px;
+	height: 220px;
+}
+.topbox p{
+	color: black;
+	font-family: "黑体";
+	margin: 20px;
+}
+img.a
+{
+	width: 620px;
+	height: 640px;
+}
+
+img.b
+{
+
+	width: 620px;
+	height: 290px;
+}
+
+img.c
+{
+	width: 310px;
+	height:290px;
+}
+
+img.d
+{
+	width: 620px;
+	height: 400px;
+}
+
+  #Blk01_Focus_Arr{
+     display: inline-block;
+       height: 31px;
+       width: 338px;
+       position: relative;
+       left:40px;
+       bottom: 150px;
+
+   }
+
+   
+     .scrArrAbsLeft{
+     display: inline-block;
+     width: 31px;     
+     height: 41px;
+   background-image: url(2.jpg);
+  
+   }
+  .scrArrAbsright
+{       display: inline-block;
+     float: right;
+     width: 31px;     
+     height: 41px;
+     background-image: url(1.jpg)
+;}
+.clear{
+clear:both;
+}
+
+</style>
+
+
+
+ 
+
+
+</head>
+
+<body onload="auto()">
+	<h1>Dior</h1>
+	<ul id="navbar">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#female">Female</a></li>
+		<li><a href="#male">Male</a></li>
+		<li><a href="#perfume">Perfume</a></li>
+		<li><a href="#more">More</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#exhibition">Exhibition</a></li>
+
+	</ul>
+	<br  />
+	
+<h2 class="pos_right">Gold is cold, diamends are dead. A Limousine is a car.</h2>
+ <h2 >Don't Pretend.</h2>
+ <h2 class="pos_right"> Feel what's real C'est Ca Que J'adore.</h2>
+<br  />
+          
+
+
+<div class="blk_01" >
+    <div class="blk_tit mb_10">
+        <ol id="Blk01_Focus_Nav">
+           <li tab-type="tab-nav" class=" ">
+               <a>事件</a>
+           </li>
+           <li tab-type="tab-nav" class=" ">
+               <a>护肤</a>
+           </li>
+           <li tab-type="tab-nav" class=" ">
+               <a>服装</a>
+           </li>
+           <li tab-type="tab-nav" class=" ">
+               <a>珠宝</a>
+           </li>
+           <li class="last selected" tab-type="tab-nav">
+               <a>艺术</a>
+           </li>
+        </ol>
+  
+   </div>
+
+
+
+
+ <ul id="Blk01_Focus_Cont" onmouseover="Stop()" onmouseout="auto()">
+        <li style="display: none;" value=1>
+              <a  >
+                 <img width="1200" height="650" src="事件.jpg">
+              <div>
+                 <a><h3>DIOR新闻</h3></a>
+              </div>
+        </li>
+
+        <li style="display:  none;" value=2>
+              <a >
+                 <img width="1200" height="650" src="护肤.jpg">
+             </a>
+              <div >
+                  <a ><h3>护肤与美妆</h3></a>
+              </div>
+        </li>
+        <li style="display: none;" value=3>
+              <a>
+                 <img width="1200" height="650" src="时装.jpg">
+              </a>
+              <div >
+                  <a><h3>服装与配饰</h3></a>
+              </div>
+        </li>
+
+        <li style="display: none;"value=4>
+              <a  >
+                 <img width="1200" height="650" src="珠宝.jpg">
+             </a>
+             <div>
+                 <a ><h3>珠宝与腕表</h3></a>
+            </div>
+        </li>
+
+       <li value=5>
+            <a >
+                <img width="1200" height="650" src="艺术.jpg">
+            </a>
+            <div>
+            <a><h3>DIOR历史与品牌</h3></a>
+            </div>
+       </li>
+
+</ul>
+
+ <div id="Blk01_Focus_Arr" onmouseover="mOver()" onmouseout="mOut()">              
+     <a  class="scrArrAbsLeft" onclick="Move(true)"></a>             
+    <a class="scrArrAbsright"  onclick="Move(false)"></a>               
+ </div>
+ 
+
+
+
+
+
+<br  />
+<br  />
+<br  />
+<div class="topbox">
+ 
+	<p>头条新闻</p>
+	<p>DIORMAG</p>
+	<p>DIORTV</p>
+	<p>DIOR迪奥后台彩妆杂志</p>
+	<p>展览</p>
+</div>
+
+<div class="topbox">
+	<p>时装及配饰</p>
+	<p>男士</p>
+	<p>女士</p>
+	<p>童装</p>
+	<p>配饰</p>
+</div>
+
+<div class="topbox">
+	<p>香氛与美妆</p>
+	<p>香氛</p>
+	<p>彩妆</p>
+
+	<p>护肤</p>
+	<p>精品展示</p>
+</div>
+
+<div class="topbox">
+	<p>珠宝与腕表</p>
+	<p>珠宝</p>
+	<p>腕表</p>
+	<p>精品展示</p>
+	<p>产品介绍</p>
+</div>
+
+<div class="topbox">
+	<p>DIOR品牌</p>
+	<p>1947年至2014年</p>
+	<p>工艺技术</p>
+  <p>DIOR历史</p>
+  <p>资料库</p>
+</div>
+
+
+<br  /> 
+<img  class="a" src="2015春夏成衣发布会_large.jpg">
+<img  class="a" src="Charlize-Theron-Jadore-Dior.jpg">
+<br  />
+<img  class="b"    src="dior-site-officiel.jpg"/>
+<img  class="c" src="ls.png">
+<img  class="c" src="zb.jpg">
+<br  />
+<img  class="d" src="mc.jpg"/>
+<img  class="d" src="man.jpg"/>
+<br  />
+<img  class="b" src="bags.jpg">
+<img  class="b" src="hfp.jpg">
+<br  />
+<img  class="d" src="ls.jpeg">
+<img  class="d" src="tz.jpg">
+<br  />
+<img  class="c" src="du.jpg">
+<img  class="b" src="e.jpg">
+<img  class="c" src="watch.jpg">
+<br  />
+<br  />
+<ul id="navbar">
+		<li><a href="#精品店">精品店</a></li>
+		<li><a href="#联系我们">联系我们</a></li>
+		<li><a href="#使用条款">使用条款</a></li>
+		<li><a href="#关注我们">关注我们</a></li>
+		<li><a href="#职业生涯">职业生涯</a></li>
+		<li><a href="#DIOR迪奥快报">DIOR迪奥快报</a></li>
+        <li><a href="#微博">微博</a></li>
+        <li><a href="#google">google</a></li>
+        <li><a href="#more">more</a></li>
+	</ul>
+
+
+
+
+   <script>
+   var img=document.getElementById("Blk01_Focus_Cont").getElementsByTagName('LI');
+   var index=0;
+   function Move(flag){
+    
+    for (var s=0 ; s<img.length; s++) {
+       img[s].style.display="none";
+    };
+     if (!flag) {
+         index++;
+        if (index > (img.length - 1)) {index = 0}
+        } else {
+          index--;
+          if (index < 0) {index = img.length - 1}
+                        }
+     img[index].style.display="";
+  }
+function auto(){
+    play=setInterval(function(){Move(true);},5000);
+}
+function Stop(){
+  var noplay=function() {
+   clearInterval(play);
+                    };
+}
+
+ </script>
+</body>
+</html>                        
